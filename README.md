@@ -1,6 +1,6 @@
 # Awesome-Medical-AI-Healthcare-LLMS
 
-# Top Medical AI & Healthcare LLMs Ecosystem
+## Top Medical AI & Healthcare LLMs Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Clinical Documentation, Medical Reasoning & Healthcare AI*  
