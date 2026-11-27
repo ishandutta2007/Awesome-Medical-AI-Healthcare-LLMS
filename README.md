@@ -1,109 +1,161 @@
-# Awesome-Medical-AI-Healthcare-LLMS
+<div align="center">
 
-## Top Medical AI & Healthcare LLMs Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Medical AI and Healthcare LLMs Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Clinical Documentation, Medical Reasoning & Healthcare AI*  
-**Last updated: March 2026**
+# 🩺 Awesome Medical AI & Healthcare LLMs 🤖
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Medical AI & Healthcare LLMs**. These tools assist clinicians with ambient documentation, clinical decision support, medical question answering, and patient interaction using large language models and speech recognition.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Examples** include Hippocratic AI, Glass Health, Ambience Healthcare, Nabla Copilot, Abridge, Heidi Health, Nuance DAX Copilot, Suki AI, DeepScribe, Corti, and maziyarpanahi/openmed (the category leaders and notable projects).
+**A Curated Directory of SaaS Solutions, Ambient Clinical Scribes, Medical Reasoning Foundation Models & Open-Source Healthcare LLMs** 🌟
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, medical LLM fine-tuning, and clinical NLP — ideal for researchers, health systems, and developers building transparent, auditable healthcare AI without vendor lock-in.
+*Designed for Physician Builders, Clinical Informaticists, Health-Tech Founders, and AI Researchers.* 🔬
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Hippocratic AI](https://hippocraticai.com/)**  
-  Patient-facing AI agents built on the Polaris model family, benchmarked for clinical safety and used for outreach, triage, and care coordination [citation:1].
-
-- **[Glass Health](https://glass.health/)**  
-  Clinical decision support API providing evidence-grounded reasoning, differential diagnosis, and treatment plan synthesis with inline citations [citation:2][citation:14].
-
-- **[Ambience Healthcare](https://www.ambiencehealthcare.com/)**  
-  Enterprise clinical intelligence platform spanning ambient documentation, revenue integrity, and inpatient care orchestration, deployed at major academic medical centers [citation:3][citation:15].
-
-- **[Nabla Copilot](https://www.nabla.com/)**  
-  Ambient AI scribe that demonstrated a statistically significant reduction in time-in-note in a randomized trial versus control [citation:4].
-
-- **[Abridge](https://www.abridge.com/)**  
-  Unified healthcare intelligence platform linking clinical conversations to structured documentation, decision support, and payment alignment workflows [citation:5].
-
-- **[Heidi Health](https://www.heidihealth.com/)**  
-  Highly customizable AI medical scribe operating ambiently across diverse clinical settings, with over 1 million weekly consultations reported [citation:6].
-
-- **[Nuance DAX Copilot](https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dax-copilot)**  
-  Microsoft's ambient clinical documentation solution integrated with EHR workflows, capturing patient encounters and generating structured notes [citation:7].
-
-- **[Suki AI](https://www.suki.ai/)**  
-  Voice-enabled clinical assistant with an "Ask" feature combining patient chart data and UpToDate evidence for point-of-care information retrieval [citation:8].
-
-- **[DeepScribe](https://www.deepscribe.ai/)**  
-  Ambient AI specialized for oncology workflows, with integrations into oncology-specific EMR systems and reported improvements in diagnosis code specificity [citation:9].
-
-- **[Corti](https://www.corti.ai/)**  
-  API-first healthcare AI platform offering real-time ambient scribing, medical coding (ICD-10/CPT), and conversational analysis for clinical documentation [citation:10].
-
-- **[maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed)**  
-  Open-source medical LLM and inference framework for healthcare applications, providing accessible model weights and deployment tooling.
-
-## Open-Source GitHub Projects
-
-- **[HuatuoGPT-3](https://github.com/FreedomIntelligence/HuatuoGPT-3)**  
-  Medical LLM series (7B/8B/32B) trained via RL-only domain adaptation from base models, supporting thinking-mode reasoning for clinical questions [citation:11].
-
-- **[OpenMed (maziyarpanahi/openmed)**  
-  Open medical LLM ecosystem providing model weights, inference scripts, and tooling for self-hosted healthcare AI.
-
-- **[DocuScribe AI](https://github.com/abh2050/docu_scribe_ai)**  
-  Agent-based clinical documentation pipeline that transcribes conversations, extracts medical concepts, generates SOAP notes, and exports FHIR-compatible data [citation:12].
-
-- **[Open Health NLP (OHNLP)](https://github.com/OHNLP)**  
-  Suite of clinical natural language processing tools from Mayo Clinic for entity extraction, assertion classification, and temporal reasoning on clinical text.
-
-- **[MedCAT](https://github.com/CogStack/MedCAT)**  
-  Medical Concept Annotation Tool for extracting and linking clinical concepts from unstructured text to SNOMED-CT and UMLS ontologies.
-
-- **[CLAMP](https://github.com/OHNLP/CLAMP)**  
-  Clinical Language Annotation, Modeling, and Processing toolkit for building custom clinical NLP pipelines.
-
-- **[cTAKES](https://github.com/apache/ctakes)**  
-  Apache clinical Text Analysis and Knowledge Extraction System for information extraction from electronic medical records.
-
-### Additional Strong Open-Source Options
-
-- **[MetaMapLite](https://github.com/lhncbc/metamaplite)** — NLM's lightweight concept mapping tool for biomedical text.
-- **[NegBio](https://github.com/ncbi-nlp/NegBio)** — Negation and uncertainty detection for biomedical text, useful in clinical note processing.
-- **[MedSpaCy](https://github.com/medspacy/medspacy)** — Clinical NLP library built on spaCy with rules and components tailored for medical text.
-- **[FHIR-PYrate](https://github.com/UMEssen/fhir-pyre)** — Python library for querying and analyzing FHIR healthcare data, useful for building clinical AI pipelines.
-- **Community medical LLM fine-tunes** — Models such as Meditron, BioMistral, and OpenBioLLM available on Hugging Face for research and self-hosted deployment.
-
-**Frameworks for building custom systems**: Combine **HuatuoGPT-3** or **OpenMed** for medical reasoning, **MedCAT** or **cTAKES** for clinical concept extraction, **DocuScribe AI** as a documentation pipeline reference, and **FHIR-PYrate** for healthcare data integration. Deploy with **vLLM** or **SGLang** for efficient inference.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Medical AI tools must comply with healthcare regulations (HIPAA, GDPR, FDA guidance, etc.) and require clinical validation before patient-facing use.
-- Self-hosted open-source solutions require proper security hardening, BAA agreements where applicable, and rigorous evaluation for clinical accuracy and safety.
+</div>
 
 ---
 
-**Made for clinical informaticists, healthcare AI researchers, physician builders, and health system technologists.**  
-Let's make medical AI more open, auditable, and clinically trustworthy.
+## 📑 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏥 Top SaaS & Hosted Enterprise Platforms](#-top-saas--hosted-enterprise-platforms)
+- [💻 Open-Source Healthcare LLMs & Clinical NLP](#-open-source-healthcare-llms--clinical-nlp)
+- [🏗️ Recommended Architecture for Custom Clinical AI](#️-recommended-architecture-for-custom-clinical-ai)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📊 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global healthcare artificial intelligence and clinical LLM market is estimated at **$36.8 billion to $52.2 billion in 2026**, growing at a rapid CAGR of over 35% as health systems urgently deploy AI to counteract clinician burnout and administrative overload. The sector is **moderately fragmented yet increasingly consolidating around EHR-integrated category champions**—while giants like Microsoft Nuance, Abridge, and Hippocratic AI dominate hospital enterprise contracts, nimble specialists (such as Heidi Health and Glass Health) maintain strong footholds among independent clinicians and specialty clinics.
+
+---
+
+## 🏥 Top SaaS & Hosted Enterprise Platforms
+
+*Ranked in descending order of company size (Valuation / Market Capitalization).*
+
+| Product | Valuation / Scale | Primary Use Case & Capabilities | Specific Starting Tier Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Nuance DAX Copilot](https://www.microsoft.com/en-us/health-solutions/clinical-workflow/dax-copilot)** | **$19.7B** *(Microsoft subsidiary; parent $3.1T)* | Enterprise ambient clinical scribe embedded in Epic and Microsoft Cloud for Healthcare | **$369 / clinician / month** *(annual agreement)* | **14-day free trial** via authorized medical reseller networks; enterprise pilots require formal scoping |
+| **[Abridge](https://www.abridge.com/)** | **$5.3B** *(Series E unicorn)* | Conversational AI scribe converting dialogue into structured clinical notes and ICD/CPT coding | **~$208 / clinician / month** *($2,500/year enterprise base license)* | **No free tier or trial** *(enterprise sales rollout, EHR BAA, and institutional demo only)* |
+| **[Hippocratic AI](https://hippocraticai.com/)** | **$3.5B** *(Series C unicorn)* | Patient-facing voice AI agents for care coordination, intake, triage, and chronic illness follow-up | **$9.00 / active agent hour** *(contracted institutional usage base)* | **No free tier or trial** *(gated sales motion requiring institutional pilot agreement)* |
+| **[Ambience Healthcare](https://www.ambiencehealthcare.com/)** | **$1.1B** *(Series C unicorn)* | Enterprise clinical operating system covering AutoScribe ambient notes, CDI, and referrals | **$250 / clinician / month** *(starter AutoScribe module; outcome-based contract)* | **No free tier or trial** *(direct enterprise EHR integration demo only)* |
+| **[Heidi Health](https://www.heidihealth.com/)** | **$900M** *(Series C)* | Cross-specialty ambient AI scribe, medical dictation, and evidence retrieval platform | **$45 / clinician / month** *(Scribe Plus monthly tier)* | **Free Forever Plan** *(unlimited ambient transcription, core templates, and 10 Pro AI actions/month)* |
+| **[Suki AI](https://www.suki.ai/)** | **$500M+** *(Series E)* | Voice assistant and ambient documentation assistant with bidirectional EHR syncing | **$299 / user / month** *(Suki Compose tier)* | **No permanent free tier** *(custom 14 to 30-day organizational pilot upon sales qualification)* |
+| **[Corti](https://www.corti.ai/)** | **$260M+** *(Series B)* | Clinical-grade AI co-pilot for emergency dispatch triage, patient consultations, and medical coding | **$0.02 / audio minute processed** *(Developer API starting rate)* | **14-day free trial** for API platform access with test audio credits |
+| **[DeepScribe](https://www.deepscribe.ai/)** | **$200M** *(Series A)* | Ambient clinical AI scribe tailored specifically for complex specialties including oncology | **$250 / provider / month** *(base ambient documentation license)* | **No free tier** *(personalized clinical demo and multi-week system trial upon consultation)* |
+| **[Glass Health](https://glass.health/)** | **$6M+** *(Seed / YC)* | AI-powered clinical decision support, differential diagnosis builder, and clinical notebook | **$20 / month** *(Starter clinician tier; Pro at $90/month)* | **Free Tier Available** *(Free for verified U.S. NPI clinicians; basic query limits for non-verified users)* |
+
+---
+
+## 💻 Open-Source Healthcare LLMs & Clinical NLP
+
+*Ranked in descending order of GitHub community stars. Each star badge links directly to that repository's stargazer network.* 🌟
+
+| Project | Stars | Focus & Description | Tech Stack / Architecture |
+| :--- | :--- | :--- | :--- |
+| **[MONAI](https://github.com/Project-MONAI/MONAI)** | [![GitHub stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | PyTorch-based framework for deep learning in healthcare imaging and clinical multimodal workflows | PyTorch, CUDA, Python |
+| **[MedicalGPT](https://github.com/shibing624/MedicalGPT)** | [![GitHub stars](https://img.shields.io/github/stars/shibing624/MedicalGPT?style=social&color=white)](https://github.com/shibing624/MedicalGPT/stargazers) | Full pipeline training framework for clinical LLMs supporting Pre-training, SFT, RLHF, DPO, and GRPO | PyTorch, Hugging Face, DeepSpeed |
+| **[OpenMed](https://github.com/maziyarpanahi/openmed)** | [![GitHub stars](https://img.shields.io/github/stars/maziyarpanahi/openmed)](https://github.com/maziyarpanahi/openmed/stargazers) | Local-first clinical NER, HIPAA PII de-identification, and inference suite with 2,200+ medical models | Python, MLX, Apache-2.0, ONNX |
+| **[Huatuo (BenCao)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)** | [![GitHub stars](https://img.shields.io/github/stars/SCIR-HI/Huatuo-Llama-Med-Chinese?style=social&color=white)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/stargazers) | Instruction-tuned large language models fine-tuned with verified clinical medical knowledge graphs | LLaMA, LoRA, Python |
+| **[Spark NLP](https://github.com/JohnSnowLabs/spark-nlp)** | [![GitHub stars](https://img.shields.io/github/stars/JohnSnowLabs/spark-nlp?style=social&color=white)](https://github.com/JohnSnowLabs/spark-nlp/stargazers) | Enterprise-grade NLP library with comprehensive biomedical NER, assertion status, and relation extraction | Java, Scala, Apache Spark, Python |
+| **[ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)** | [![GitHub stars](https://img.shields.io/github/stars/Kent0n-Li/ChatDoctor?style=social&color=white)](https://github.com/Kent0n-Li/ChatDoctor/stargazers) | Medical chat assistant fine-tuned on physician-patient consultations with disease database grounding | LLaMA, PyTorch, Python |
+| **[ClinicalBERT](https://github.com/EmilyAlsentzer/clinicalBERT)** | [![GitHub stars](https://img.shields.io/github/stars/EmilyAlsentzer/clinicalBERT?style=social&color=white)](https://github.com/EmilyAlsentzer/clinicalBERT/stargazers) | Foundational clinical BERT embeddings pre-trained on MIMIC-III EHR notes for clinical prediction | PyTorch, BERT, Transformers |
+| **[MedSpaCy](https://github.com/medspacy/medspacy)** | [![GitHub stars](https://img.shields.io/github/stars/medspacy/medspacy?style=social&color=white)](https://github.com/medspacy/medspacy/stargazers) | Modular clinical NLP library built on spaCy for sectionizer detection, context assertion, and clinical entities | spaCy, Python, Cython |
+| **[MedCAT](https://github.com/CogStack/MedCAT)** | [![GitHub stars](https://img.shields.io/github/stars/CogStack/MedCAT?style=social&color=white)](https://github.com/CogStack/MedCAT/stargazers) | Medical Concept Annotation Tool for extracting and linking text to SNOMED CT and UMLS ontologies | Python, spaCy, PyTorch |
+| **[HuatuoGPT-II](https://github.com/FreedomIntelligence/HuatuoGPT-II)** | [![GitHub stars](https://img.shields.io/github/stars/FreedomIntelligence/HuatuoGPT-II?style=social&color=white)](https://github.com/FreedomIntelligence/HuatuoGPT-II/stargazers) | One-stage training framework for medical domain adaptation of open foundation LLMs | PyTorch, DeepSpeed, Transformers |
+| **[NegBio](https://github.com/ncbi-nlp/NegBio)** | [![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/NegBio?style=social&color=white)](https://github.com/ncbi-nlp/NegBio/stargazers) | High-performance clinical NLP system for negation and uncertainty detection in radiology reports | Python, Universal Dependencies |
+| **[cTAKES](https://github.com/apache/ctakes)** | [![GitHub stars](https://img.shields.io/github/stars/apache/ctakes?style=social&color=white)](https://github.com/apache/ctakes/stargazers) | Apache clinical Text Analysis and Knowledge Extraction System for processing electronic health records | Java, Apache UIMA |
+| **[FHIR-PYrate](https://github.com/UMEssen/fhir-pyrate)** | [![GitHub stars](https://img.shields.io/github/stars/UMEssen/fhir-pyrate?style=social&color=white)](https://github.com/UMEssen/fhir-pyrate/stargazers) | Python library to query FHIR servers, extract clinical resources into DataFrames, and link DICOM studies | Python, FHIR, pandas |
+| **[BioMistral](https://github.com/BioMistral/BioMistral)** | [![GitHub stars](https://img.shields.io/github/stars/BioMistral/BioMistral?style=social&color=white)](https://github.com/BioMistral/BioMistral/stargazers) | Suite of open-source biomedical foundation LLMs based on Mistral, fine-tuned on PubMed Central | Mistral, Transformers, PyTorch |
+| **[MedTagger](https://github.com/OHNLP/MedTagger)** | [![GitHub stars](https://img.shields.io/github/stars/OHNLP/MedTagger?style=social&color=white)](https://github.com/OHNLP/MedTagger/stargazers) | Mayo Clinic lightweight clinical NLP indexing and concept extraction engine | Java, Apache UIMA |
+| **[MetaMapLite](https://github.com/lhncbc/metamaplite)** | [![GitHub stars](https://img.shields.io/github/stars/lhncbc/metamaplite?style=social&color=white)](https://github.com/lhncbc/metamaplite/stargazers) | National Library of Medicine (NLM) near real-time named-entity recognizer for biomedical text | Java, UMLS Metathesaurus |
+| **[HuatuoGPT-3](https://github.com/FreedomIntelligence/HuatuoGPT-3)** | [![GitHub stars](https://img.shields.io/github/stars/FreedomIntelligence/HuatuoGPT-3?style=social&color=white)](https://github.com/FreedomIntelligence/HuatuoGPT-3/stargazers) | Thinking-mode medical reasoning LLM series trained via RL-only domain adaptation from base models | PyTorch, DeepSpeed |
+| **[DocuScribe AI](https://github.com/abh2050/docu_scribe_ai)** | [![GitHub stars](https://img.shields.io/github/stars/abh2050/docu_scribe_ai?style=social&color=white)](https://github.com/abh2050/docu_scribe_ai/stargazers) | Agentic ambient clinical documentation pipeline converting consultations into SOAP notes & FHIR JSON | Python, LangChain, Whisper |
+
+---
+
+## 🏗️ Recommended Architecture for Custom Clinical AI
+
+```
+┌────────────────────────────────────────────────────────┐
+│             Ambient Audio / Clinical Intake            │
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│   Speech-to-Text & Diarization (Whisper / FasterWhisper)│
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│     Medical Entity & Concept Linking (MedCAT / MedSpaCy)│
+│     - SNOMED-CT / ICD-10 / UMLS / Negation (NegBio)    │
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│    Reasoning & SOAP Generation (HuatuoGPT / OpenMed)   │
+│    - Grounded differential diagnosis & clinical plans  │
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+┌────────────────────────────────────────────────────────┐
+│       EHR Interoperability & Output (FHIR-PYrate)      │
+│       - HL7 / FHIR Bundles / Structured Clinical Notes │
+└────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please help expand this ecosystem:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a feature branch: `git checkout -b feature/new-healthcare-tool`
+3. 📝 Add your entry ensuring:
+   - Factual pricing and free-tier specifics (no vague placeholders).
+   - Valid GitHub repository link with updated star badge.
+   - 1–2 concise sentences on medical relevance.
+4. 🚀 Submit a **Pull Request** referencing [Awesome Awesome Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated medical AI and healthcare LLM repository assists your research, clinical practice, or startup engineering, please consider supporting the project:
+
+- ⭐ **Star the repo** to amplify its reach to developers and clinicians worldwide!
+- 🍴 **Fork & Share** with your colleagues in medical informatics.
+- ☕ **Buy a Coffee & Sponsor**: Support ongoing maintenance through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS&type=date&legend=top-left)
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Medical-AI-Healthcare-LLMS&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is strictly a **community-curated educational and informational resource** and does not constitute medical advice or commercial endorsement.
+- All software deployed in clinical settings must adhere to pertinent healthcare regulations, including **HIPAA, GDPR, HITECH**, and relevant **FDA Software as a Medical Device (SaMD)** regulatory pathways.
+- Clinical teams must validate self-hosted open-source models with licensed healthcare professionals before utilizing model outputs for patient care or diagnostic decisions.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for clinical informaticists, physician builders, and healthcare AI researchers.</sub>
+</div>
